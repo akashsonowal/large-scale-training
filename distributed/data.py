@@ -16,3 +16,4 @@ class MyTrainDataset(Dataset):
 if __name__ == "__main__":
     data = MyTrainDataset(100)
     print(data[0])
+    print(torch.cuda.is_available())
